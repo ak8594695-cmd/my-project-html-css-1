@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>my project work</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <div class="logo">ANIKET KUMAR</div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Pricing</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="menu-toggle">☰</div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Build Your Dream Website</h1>
+    <p>Create beautiful, responsive websites quickly using HTML & CSS.</p>
+    <a href="#" class="cta-btn">Get Started</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 MyLandingPage. All rights reserved.</p>
+  <div class="social-links">
+    <a href="#">🐦</a>
+    <a href="#">📘</a>
+    <a href="#">📸</a>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('ACTIVE');
+  });
+</script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
